@@ -8,14 +8,14 @@ HTML code has been validated with [W3C Markup Validation Service](https://valida
 
 Clone the repository
 ``` sh
-git clone https://github.com/wo984c/portfxxx
+git clone https://github.com/wo984c/portfolio
 ```
 
 ## What is included
 
 Within the download you'll find the following directories and files:
 
-* css/ - contains minimal version of Bootstrap v3.3.7 and style.css
+* css/ - contains minimal version of Bootstrap v3.3.7, style.css, and normalize.css. Normalize makes browsers render all elements more consistently.
 * images/ - contains the images
 * index.html - main html page
 * README.md - this readme file
