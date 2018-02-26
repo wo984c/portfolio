@@ -17,81 +17,104 @@
     <!-- FavIcon -->
     <link rel="shortcut icon" type="img/png" href="images/favicon.png">
 </head>
+
 <body>
     <div class="container">
+
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6" >
                 <!-- Allow the browser to choose an appropriate resolution image by using srcset -->
-                <picture>
-                    <source srcset="images/logo_115.jpg" class="img-fluid" media="(min-width: 992px)">
-                    <source srcset="images/logo_114.jpg" class="img-fluid" media="(min-width: 768px) and (max-width: 991px)">
-                    <source srcset="images/logo_mid.jpg" class="img-fluid" media="(min-width: 320px) and (max-width: 767px)">
-                    <img class="title-logo img-fluid" src="images/logo_115.jpg" alt="Website Logo">
-                </picture>
+                <img src="images/logo_114.jpg" class="img-fluid"
+                     srcset="images/logo_115.jpg 90w,
+                             images/logo_114.jpg 75w,
+                             images/logo_mid.jpg 58w"
+                     sizes="(min-width: 992px) 90px,
+                            (min-width: 768px) and (max-width: 991px) 75px,
+                            (max-width: 767px) 58px">
             </div>
+
             <div class="col-md-6 col-sm-6 col-xs-6 text-right text-uppercase">
                 <h1 class="title-super">William Ortiz</h1>
                 <h4 class="subtitle-super">Front-end Ninja</h4>
             </div>
+
         </div>
+
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <hr class="hr-mod">
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <picture>
-                    <source srcset="images/abstract_448.jpg" class="img-fluid center-block" media="(min-width: 320px) and (max-width: 479px)">
-                    <img class="center-block img-fluid" src="images/abstract2.jpg" alt="Abstract image">
-                </picture>
+                <img src="images/abstract2.jpg" class="img-fluid"
+                     srcset="images/abstract_448.jpg 448w,
+                             images/abstract2.jpg 1280w"
+                     sizes="(max-width: 479px) 448px,
+                            (min-width: 480px) 1280px">
             </div>
+
         </div>
+
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <h2 class="text-muted"> Featured Work</h2>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-6" >
-                <picture>
-                    <img src="images/movies_448.jpg" alt="Picture of the Movie Trailer Website" class="img-fluid center-block">
-                </picture>
+            <div class="col-md-4 col-sm-4" >
+                <img src="images/movies_448.jpg" alt="Picture of the Movie Trailer Website" class="img-fluid center-block">
+
                 <div class="card text-center">
-                    <h3 class="card-title text-uppercase">Movie Trailer</h3>
-                    <div class="card-text">
+                    <h3 class="card-title text-uppercase">
+                        Movie Trailer
+                    </h3>
+
+                    <p class="card-text text-center">
                         <a href="https://github.com/wo984c/movie-trailer">https://github.com/wo984c/movie-trailer
                         </a>
-                    </div>
+                    </p>
+
                 </div>
+
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <picture>
-                    <img src="images/next_proj_448.jpg" alt="Picture of the Multi User Blog project" class="img-fluid center-block">
-                </picture>
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/next_proj_448.jpg" alt="Picture of the Multi User Blog project" class="img-fluid center-block">
+
                 <div class="card text-center">
                     <h3 class="card-title text-uppercase">
                         Multi-User Blog
                     </h3>
-                    <p class="card-text">
+
+                    <p class="card-text text-center">
                         Comming up next!!!
                     </p>
                 </div>
+
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <picture>
-                    <img src="images/question_448.jpg" alt="Picture of a cartoon thinking about the Item Catalog Project" class="img-fluid center-block">
-                </picture>
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/question_448.jpg" alt="Picture of a cartoon thinking about the Item Catalog Project" class="img-fluid center-block">
+
                 <div class="card text-center">
                     <h3 class="card-title text-uppercase">
                         Item Catalog App
                     </h3>
-                    <p class="card-text">
+
+                    <p class="card-text text-center">
                         Stay tunned!!!
                     </p>
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </body>
+
 </html>

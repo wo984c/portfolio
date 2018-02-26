@@ -26,7 +26,7 @@ hr {
 }
 
 .hr-mod {
-    margin-bottom: 0PX
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -47,6 +47,7 @@ h2 {
 .subtitle-super {
     font-weight: 700;
 }
+
 .title-logo {
     margin-top: 18px;
 }
@@ -61,13 +62,15 @@ h2 {
 }
 
 footer {
-    margin: 20px
+    margin: 20px;
 }
+
 /* Modifies font size - Resolution between 768px and 992px*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     .title-super {
         font-size: 35px;
     }
+
     .subtitle-super {
         font-size: 14px;
     }
@@ -79,21 +82,26 @@ footer {
     h3 {
         font-size: 15px;
     }
+
     .card-title {
         font-size: 22px;
     }
 }
+
 /* Modifies font size - Resolution between 480px and 767px*/
 @media screen and (min-width: 480px) and (max-width: 767px){
     .title-super {
         font-size: 26px;
     }
+
     .subtitle-super {
         font-size: 12px;
     }
+
     .text-muted {
         font-size: 22px;
     }
+
     .card-title {
         font-size: 22px;
     }
@@ -101,6 +109,7 @@ footer {
     .card-text {
         font-size: 12px;
     }
+
     h3 {
         font-size: 10px;
     }
@@ -111,12 +120,15 @@ footer {
     .title-super {
         font-size: 22px;
     }
+
     .subtitle-super {
         font-size: 10px;
     }
+
     .text-muted {
         font-size: 20px;
     }
+
     .card-title {
         font-size: 16px;
     }
@@ -124,22 +136,26 @@ footer {
     .card-text {
         font-size: 8px;
     }
+
     h3 {
         font-size: 10px;
     }
 }
+
 /* Modifies font size - Resolution between 320px and 359px*/
 @media screen and (min-width: 320px) and (max-width: 359px){
-
     .title-super {
         font-size: 18px;
     }
+
     .subtitle-super {
         font-size: 8px;
     }
+
     .text-muted {
         font-size: 16px;
     }
+
     .card-title {
         font-size: 12px;
     }
@@ -147,8 +163,8 @@ footer {
     .card-text {
         font-size: 7px;
         display: block;
-
     }
+
     h3 {
         font-size: 10px;
     }
